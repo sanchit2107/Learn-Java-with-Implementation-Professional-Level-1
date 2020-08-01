@@ -1,0 +1,28 @@
+// BIG PROJECTS PROBLEMS:
+// Problem1:   method(Button ob   OR    RadioButton ob     OR      CheckBox ob)
+// Problem2:   premethod(Parent obj)
+// Resolution of Problems:  Parent ref = new Child(); -> allowed in JAVA but its reverse is not True.
+
+class TestProblem{
+	public static void main(String args[]){
+		Parent ref;
+		ref=new Child();
+		ref.showParent();
+		// ref.showChild();
+		
+		Child refChild=(Child)ref;						// Type Casting
+		refChild.showChild();
+	}
+}
+
+class Parent{
+	public void showParent(){
+		System.out.println("Parent show()");
+	}
+}
+
+class Child{
+	public void showChild(){
+		System.out.println("Child show()");
+	}
+}
