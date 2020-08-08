@@ -31,6 +31,9 @@ _There are two ways of constructing a software design: One way is to make it so 
 - Static Variables and Methods
 - Coupling and Cohesion
 
+
+<img src="https://i2.wp.com/www.xamnation.com/wp-content/uploads/2019/12/java-use.png?resize=585%2C489&ssl=1" align="right" width="50%" />
+
 > Flow Control and Exceptions
 - if and switch Statements
 - if-else Branching
